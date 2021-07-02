@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721AC6F32689F68E009C7611 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721AC6F22689F68E009C7611 /* Task.swift */; };
 		72A071A52689B1B700585FD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A071A42689B1B700585FD2 /* AppDelegate.swift */; };
 		72A071A72689B1B700585FD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A071A62689B1B700585FD2 /* SceneDelegate.swift */; };
 		72A071A92689B1B700585FD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A071A82689B1B700585FD2 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		184E3823CDACC495E3AC7ABD /* Pods-taskapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.release.xcconfig"; path = "Target Support Files/Pods-taskapp/Pods-taskapp.release.xcconfig"; sourceTree = "<group>"; };
+		721AC6F22689F68E009C7611 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		72A071A12689B1B700585FD2 /* taskapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A071A42689B1B700585FD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72A071A62689B1B700585FD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +60,6 @@
 				FCC7A73A0D4D159302E0AB59 /* Pods-taskapp.debug.xcconfig */,
 				184E3823CDACC495E3AC7ABD /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,6 +88,7 @@
 				72A071A62689B1B700585FD2 /* SceneDelegate.swift */,
 				72A071A82689B1B700585FD2 /* ViewController.swift */,
 				72A071BA2689C09200585FD2 /* InputViewController.swift */,
+				721AC6F22689F68E009C7611 /* Task.swift */,
 				72A071AA2689B1B700585FD2 /* Main.storyboard */,
 				72A071AD2689B1B700585FD2 /* Assets.xcassets */,
 				72A071AF2689B1B700585FD2 /* LaunchScreen.storyboard */,
@@ -211,6 +213,7 @@
 			files = (
 				72A071A92689B1B700585FD2 /* ViewController.swift in Sources */,
 				72A071A52689B1B700585FD2 /* AppDelegate.swift in Sources */,
+				721AC6F32689F68E009C7611 /* Task.swift in Sources */,
 				72A071A72689B1B700585FD2 /* SceneDelegate.swift in Sources */,
 				72A071BB2689C09200585FD2 /* InputViewController.swift in Sources */,
 			);
